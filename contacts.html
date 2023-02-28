@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="https://randojs.com/1.0.0.js"></script>
+        <script>
+            function showRandomNumber(){
+                huh='+996707'
+                document.getElementById("myNumber").innerHTML = huh+rando(100000,999999);
+                document.getElementById("myNumber1").innerHTML = huh+rando(100000,999999);
+                document.getElementById("myNumber2").innerHTML = huh+rando(100000,999999);
+                document.getElementById("myNumber3").innerHTML = huh+rando(100000,999999);
+                document.getElementById("myNumber4").innerHTML = huh+rando(100000,999999);
+                document.getElementById("myNumber5").innerHTML = huh+rando(100000,999999);
+            }
+        </script>
+        <style>
+            .d{
+                font-size:30px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body onload="showRandomNumber();">
+        <div id="myNumber" class="d"></div>
+        <div id="myNumber1" class="d"></div>
+        <div id="myNumber2" class="d"></div>
+        <div id="myNumber3" class="d"></div>
+        <div id="myNumber4" class="d"></div>
+        <div id="myNumber5" class="d"></div>
+    </body>
+</html>
